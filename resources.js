@@ -1,268 +1,279 @@
 window.STUDIO_REPOS = [
   {
-    "branch": "main",
-    "entries": [],
+    "name": "Intro-to-ClaudeAI",
     "url": "https://github.com/UA-AIstudio/Intro-to-ClaudeAI",
-    "name": "Intro-to-ClaudeAI"
+    "branch": "main",
+    "entries": []
   },
   {
+    "name": "ai-news-board",
+    "url": "https://github.com/UA-AIstudio/ai-news-board",
     "branch": "main",
     "entries": [
       {
-        "type": "tree",
-        "path": ".claude"
+        "path": ".claude",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": ".claude/settings.json"
+        "path": ".claude/settings.json",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": ".github"
+        "path": ".github",
+        "type": "tree"
       },
       {
-        "type": "tree",
-        "path": ".github/workflows"
+        "path": ".github/workflows",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": ".github/workflows/ci.yml"
+        "path": ".github/workflows/ci.yml",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": ".github/workflows/deploy.yml"
+        "path": ".github/workflows/deploy.yml",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": ".gitignore"
+        "path": ".gitignore",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "CLAUDE.md"
+        "path": "CLAUDE.md",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "README.md"
+        "path": "README.md",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "data"
+        "path": "data",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "data/news.json"
+        "path": "data/news.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "data/pinned.json"
+        "path": "data/pinned.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "requirements.txt"
+        "path": "requirements.txt",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "routine"
+        "path": "routine",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "routine/PROMPT.md"
+        "path": "routine/PROMPT.md",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "schema"
+        "path": "schema",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "schema/news.schema.json"
+        "path": "schema/news.schema.json",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "scripts"
+        "path": "scripts",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "scripts/build.py"
+        "path": "scripts/build.py",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "scripts/validate.py"
+        "path": "scripts/validate.py",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "static"
+        "path": "static",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "static/board.js"
+        "path": "static/board.js",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "static/img"
+        "path": "static/img",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "static/img/studio-poster.png"
+        "path": "static/img/studio-poster.png",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "static/style.css"
+        "path": "static/style.css",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "templates"
+        "path": "templates",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "templates/index.html.j2"
+        "path": "templates/index.html.j2",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "tests"
+        "path": "tests",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "tests/conftest.py"
+        "path": "tests/conftest.py",
+        "type": "blob"
       },
       {
-        "type": "tree",
-        "path": "tests/fixtures"
+        "path": "tests/fixtures",
+        "type": "tree"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_duplicate_url.json"
+        "path": "tests/fixtures/bad_duplicate_url.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_em_dash.json"
+        "path": "tests/fixtures/bad_em_dash.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_extra_key.json"
+        "path": "tests/fixtures/bad_extra_key.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_future_date.json"
+        "path": "tests/fixtures/bad_future_date.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_host.json"
+        "path": "tests/fixtures/bad_host.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_http.json"
+        "path": "tests/fixtures/bad_http.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_long_headline.json"
+        "path": "tests/fixtures/bad_long_headline.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_long_summary.json"
+        "path": "tests/fixtures/bad_long_summary.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_lookalike_host.json"
+        "path": "tests/fixtures/bad_lookalike_host.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_empty.json"
+        "path": "tests/fixtures/bad_metrics_empty.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_extra_key.json"
+        "path": "tests/fixtures/bad_metrics_extra_key.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_long_label.json"
+        "path": "tests/fixtures/bad_metrics_long_label.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_long_unit.json"
+        "path": "tests/fixtures/bad_metrics_long_unit.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_negative_percent.json"
+        "path": "tests/fixtures/bad_metrics_negative_percent.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_no_reporter.json"
+        "path": "tests/fixtures/bad_metrics_no_reporter.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_percent_range.json"
+        "path": "tests/fixtures/bad_metrics_percent_range.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_reporter_only.json"
+        "path": "tests/fixtures/bad_metrics_reporter_only.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_string_value.json"
+        "path": "tests/fixtures/bad_metrics_string_value.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_metrics_too_many.json"
+        "path": "tests/fixtures/bad_metrics_too_many.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_missing_date.json"
+        "path": "tests/fixtures/bad_missing_date.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_old_date.json"
+        "path": "tests/fixtures/bad_old_date.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_too_few_models.json"
+        "path": "tests/fixtures/bad_too_few_models.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_too_many_campus.json"
+        "path": "tests/fixtures/bad_too_many_campus.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/bad_updated_offset.json"
+        "path": "tests/fixtures/bad_updated_offset.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/good.json"
+        "path": "tests/fixtures/good.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/good_metrics.json"
+        "path": "tests/fixtures/good_metrics.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/pinned_good.json"
+        "path": "tests/fixtures/pinned_good.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/fixtures/stress_max.json"
+        "path": "tests/fixtures/stress_max.json",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/test_board.py"
+        "path": "tests/test_board.py",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/test_build.py"
+        "path": "tests/test_build.py",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/test_metrics.py"
+        "path": "tests/test_metrics.py",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/test_repo_rules.py"
+        "path": "tests/test_repo_rules.py",
+        "type": "blob"
       },
       {
-        "type": "blob",
-        "path": "tests/test_validate.py"
+        "path": "tests/test_validate.py",
+        "type": "blob"
       }
-    ],
-    "url": "https://github.com/UA-AIstudio/ai-news-board",
-    "name": "ai-news-board"
+    ]
+  },
+  {
+    "name": "The-AI-Studio-Website",
+    "url": "https://github.com/UA-AIstudio/The-AI-Studio-Website",
+    "branch": "main",
+    "entries": []
+  },
+  {
+    "name": "Intro-to-Gemini-Notebook-Workshop",
+    "url": "https://github.com/UA-AIstudio/Intro-to-Gemini-Notebook-Workshop",
+    "branch": "main",
+    "entries": []
   }
-]
-;
+];
