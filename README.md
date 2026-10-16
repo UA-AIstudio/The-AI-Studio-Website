@@ -1,32 +1,25 @@
-# AI+ Studio — Files & workshops
+# AI+ Studio files
 
-A responsive resource collection for AI+ Studio, with University of Arizona Libraries visual branding.
+A simple directory of public repositories, folders, and files in [UA-AIstudio](https://github.com/UA-AIstudio).
 
-## Website preview
+[Open website preview](https://ua-ai-studio-files.frostystoat7.chatgpt.site) — owner-only access; sign-in required.
 
-[Open the AI+ Studio website](https://ua-ai-studio-files.frostystoat7.chatgpt.site) — owner-only preview; sign-in is required. GitHub Pages has not been enabled for this private repository.
+## Features
 
-## What is included
+- One directory list with expandable repositories and folders.
+- Search across file paths and names, including collapsed folders.
+- File links open the original file on GitHub.
+- Refresh from GitHub fetches current public repositories and their file trees without credentials.
+- A saved snapshot provides a fallback if GitHub is unavailable or rate limits requests.
 
-- Featured Intro to Gemini Notebook workshop linking to its repository.
-- File cards with view and download links for the workshop slides and poster.
-- Link to the UA-AIstudio AI news board project.
-- Intro to Claude AI marked as coming soon because its repository currently has no files.
-- Search, resource-type filters, empty-result reset, and keyboard-accessible workshop topic tabs.
-- Responsive layouts for mobile and desktop.
+Only public repositories are listed. Empty repositories display “No files yet.” Private repositories are never fetched by the browser. No sign-in tokens are embedded in the site.
 
-## Files and local preview
+## Run locally
 
-`index.html` contains the page and resource cards, `style.css` contains the styles, `app.js` provides search and interactive topics, and `assets/` contains the Libraries logo.
+Open `index.html` in a browser, or use any static web server. No installation or build is required.
 
-Open `index.html` in a browser or serve this directory using any static web server. No dependencies or build step are required. Google Fonts loads from the web, with system-font fallbacks available.
+`index.html` contains the layout, `style.css` contains the styling, and `app.js` renders the directory and handles search and refresh. `resources.json` is the saved public directory snapshot; `resources.js` exposes that snapshot as `window.STUDIO_REPOS` so it also works when opened locally. Refresh updates the current browser session without writing back to the repository.
 
-## Add a resource
+The saved snapshot was generated on October 16, 2026. To update it permanently, regenerate `resources.json` from GitHub’s public repository and tree APIs, then update `resources.js` with `window.STUDIO_REPOS = <JSON>;`.
 
-Add an `article.file-card` in the `file-grid` in `index.html`. Set `data-kind` to `slides`, `images`, or `projects`; add lowercase title and description keywords in `data-search`; and update its visible title, description, and links. Update the total shown in the All resources button and initial result count. Search and filtering work automatically for matching cards when the page loads. For a new category, also add a filter button with the corresponding `data-filter` value.
-
-Resource listings are curated in the HTML, not automatically synchronized from GitHub. Files remain in their original repositories.
-
-## Branding
-
-The logo is sourced from [University of Arizona Libraries](https://lib.arizona.edu/logo.svg). Branding is included as requested; visual identity alone does not imply institutional endorsement.
+The University Libraries logo in `assets/` is sourced from https://lib.arizona.edu/logo.svg. The requested visual branding does not imply institutional endorsement.
