@@ -274,6 +274,11 @@ window.STUDIO_REPOS = [
     "name": "Intro-to-Gemini-Notebook-Workshop",
     "url": "https://github.com/UA-AIstudio/Intro-to-Gemini-Notebook-Workshop",
     "branch": "main",
-    "entries": []
+    "entries": [
+      {
+        "type": "blob",
+        "path": "Sharaan_Gemini Notebook Workshop · AI+ Studio (v2) (1).pptx"
+      }
+    ]
   }
 ];

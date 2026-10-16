@@ -2,7 +2,7 @@
 
 A simple directory of public repositories, folders, and files in [UA-AIstudio](https://github.com/UA-AIstudio).
 
-[Open website preview](https://ua-ai-studio-files.frostystoat7.chatgpt.site) — owner-only access; sign-in required.
+[Open the live website](https://ua-aistudio.github.io/The-AI-Studio-Website/) — hosted on GitHub Pages, publicly accessible without signing in.
 
 ## Features
 
