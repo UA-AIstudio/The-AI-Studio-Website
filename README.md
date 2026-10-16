@@ -1,8 +1,14 @@
 # AI+ Studio files
 
-A simple directory of public repositories, folders, and files in [UA-AIstudio](https://github.com/UA-AIstudio).
+AI+ Studio Files is a simple website for browsing the public repositories, folders, and files in [UA-AIstudio](https://github.com/UA-AIstudio). It brings workshop materials, presentations, and project resources into one searchable directory. Visitors can expand folders and open files directly on GitHub.
 
-[Open the live website](https://ua-aistudio.github.io/The-AI-Studio-Website/) — hosted on GitHub Pages, publicly accessible without signing in.
+## Links
+
+- **Live website:** [AI+ Studio Files on GitHub Pages](https://ua-aistudio.github.io/The-AI-Studio-Website/)
+- **Website source code:** [UA-AIstudio/The-AI-Studio-Website](https://github.com/UA-AIstudio/The-AI-Studio-Website)
+- **GitHub organization:** [UA-AIstudio](https://github.com/UA-AIstudio)
+
+The website is publicly accessible without signing in. Use **Refresh from GitHub** to fetch the latest public files and folders.
 
 ## Features
 
