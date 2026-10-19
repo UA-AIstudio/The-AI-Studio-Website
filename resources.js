@@ -277,7 +277,7 @@ window.STUDIO_REPOS = [
     "entries": [
       {
         "type": "blob",
-        "path": "Sharaan_Gemini Notebook Workshop · AI+ Studio (v2) (1).pptx"
+        "path": "Sharaan_Gemini Notebook Workshop.pdf"
       }
     ]
   }

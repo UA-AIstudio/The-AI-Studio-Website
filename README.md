@@ -8,14 +8,14 @@ AI+ Studio Files is a simple website for browsing the public repositories, folde
 - **Website source code:** [UA-AIstudio/The-AI-Studio-Website](https://github.com/UA-AIstudio/The-AI-Studio-Website)
 - **GitHub organization:** [UA-AIstudio](https://github.com/UA-AIstudio)
 
-The website is publicly accessible without signing in. Use **Refresh from GitHub** to fetch the latest public files and folders.
+The website is publicly accessible without signing in. The directory refreshes from GitHub automatically when the page opens. Use **Refresh from GitHub** to refresh it again.
 
 ## Features
 
 - One directory list with expandable repositories and folders.
 - Search across file paths and names, including collapsed folders.
 - File links open the original file on GitHub.
-- Refresh from GitHub fetches current public repositories and their file trees without credentials.
+- Automatically fetches current public repositories and file trees when the page opens; the refresh button lets visitors retry.
 - A saved snapshot provides a fallback if GitHub is unavailable or rate limits requests.
 
 Only public repositories are listed. Empty repositories display “No files yet.” Private repositories are never fetched by the browser. No sign-in tokens are embedded in the site.
